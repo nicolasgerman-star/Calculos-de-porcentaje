@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyección de Notas Finales</title>
+    <link rel="stylesheet" href="./style/style.css">    
+    
+</head>
+<body>        
+    <h1>Proyección de Notas Finales</h1>
+    <div class="container">
+        <form id="percentageForm">
+            <label for="proceso">Ingresa tu proceso:</label>
+            <input type="number" id="proceso" required>
+            <div class="button-container">
+                <button type="submit">Obtener Resultado</button>
+            </div>
+        </form>
+    </div>
+    <div id="result">
+          <h2>Para la nota final, necesitarás obtener en el examen final los siguientes porcentajes:</h2>  
+    </div>
+    <div class="result-container">
+        <div class="result-box">
+            <div id="nf2" class="result-value">-</div>
+            <h3>Para obtener un 2 (dos) en tu nota final</h3>
+        </div>
+        <div class="result-box">
+            <div id="nf3" class="result-value">-</div>
+            <h3>Para obtener un 3 (tres) en tu nota final</h3>
+        </div>
+        <div class="result-box">
+            <div id="nf4" class="result-value">-</div>
+            <h3>Para obtener un 4 (cuatro) en tu nota final</h3>
+        </div>
+        <div class="result-box">
+            <div id="nf5" class="result-value">-</div>
+            <h3>Para obtener un 5 (cinco) en tu nota final</h3>
+        </div>
+        <script src="./script/script.js"></script>
+</body>
+</html>
